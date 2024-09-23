@@ -11,7 +11,7 @@ namespace Shop.Infrastructure
 {
     public class WrappingAdapter : IWrappingAdapter
     {
-        private readonly string _filePath = "C:\\Users\\Jannick W. Andresen\\source\\repos\\Shop\\Shop\\Files\\Wrapping.txt";
+        private readonly string _filePath = "Files\\Wrapping.txt"; // Might need to insert full path to retrieve the txt file.
 
         public List<Item> LoadGiftWrappingOptions()
         {

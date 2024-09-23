@@ -10,7 +10,7 @@ namespace Shop.Infrastructure
 {
     public class NecklaceAdapter : IJewelryAdapter
     {
-        private readonly string _filePath = "C:\\Users\\Jannick W. Andresen\\source\\repos\\Shop\\Shop\\Files\\Necklaces.txt";
+        private readonly string _filePath = "Files\\Necklaces.txt"; // Might need to insert full path to retrieve the txt file.
 
         public List<Item> GetJewelryItems()
         {

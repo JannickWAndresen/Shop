@@ -1,5 +1,6 @@
 ﻿using Shop.Entities;
 using Shop.InterfaceAdapter;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace Shop.Infrastructure
 {
     public class RingAdapter : IJewelryAdapter
     {
-        private readonly string _filePath = "C:\\Users\\Jannick W. Andresen\\source\\repos\\Shop\\Shop\\Files\\Rings.txt";
+        private readonly string _filePath = "Files\\Rings.txt"; // Might need to insert full path to retrieve the txt file.
 
         public List<Item> GetJewelryItems()
         {

@@ -11,7 +11,7 @@ namespace Shop.Infrastructure
 {
     public class ShipmentAdapter : IShipmentAdapter
     {
-        private readonly string _filePath = "C:\\Users\\Jannick W. Andresen\\source\\repos\\Shop\\Shop\\Files\\Shipping.txt";
+        private readonly string _filePath = "Files\\Shipping.txt"; // Might need to insert full path to retrieve the txt file.
 
         public List<Item> LoadShipmentOptions()
         {
