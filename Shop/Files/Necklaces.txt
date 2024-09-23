@@ -1,0 +1,2 @@
+﻿1,Sapphire Gold Necklace, 6000.00
+2,Emerald Silver Necklace, 3000.00

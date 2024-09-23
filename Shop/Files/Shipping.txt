@@ -1,0 +1,2 @@
+﻿1,Standard Shipping,15.00
+2,Express Shipping,30.00
